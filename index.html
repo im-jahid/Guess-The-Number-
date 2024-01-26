@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project HUNT</title>
+    <!-- ===GOOGLE FONTS=== -->
+    
+    <!-- ===GOOGLE FONTS=== -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    
+
+ <!-- ======== copyright PART END ======== -->
+
+ <div class="container">
+  <h1>Guess The Number!</h1>
+
+  <p id="main"><em>Choose a number between 1 and 30</em></p>
+
+  <form class="flex-form">
+    <label for="num" class="form-el">Insert your number:</label>
+    <input type="number" name="num" id="num" class="bigger-box" min="1" max="30" placeholder="Insert your number" required />
+    <button type="submit" id="submit" class="btn bigger-box">Let's Play!</button>
+    <button type="reset" id="reset" class="btn bigger-box">Play Again</button>
+    <p id="show-num"></p>
+    <p id="hint"></p>
+    <p id="success"></p>
+  </form>
+</div>
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
